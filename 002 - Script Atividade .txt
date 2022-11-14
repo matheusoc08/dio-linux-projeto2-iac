@@ -1,0 +1,14 @@
+#!/bin/bash
+
+apt-get update
+apt-get upgrade -y
+
+apt-get install unzip -y
+apt-get install apache2 -y
+
+cd /scripts/temp
+wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip -v
+
+unzip main.zip
+
+cp -r -v linux-site-dio-main/* /var/www/html/

@@ -1,0 +1,12 @@
+Criar um script para provisionar um servidor WEB-apache já com a aplicação.
+
+Definições
+1- Restaurar o snapshot criado anteriorment no Virtual Box;
+2- Atualizar o servidor
+3- Instalar o apache2
+4- Instalar o unzip
+5- Baixar a aplicação disponível no endereço https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip no diretório /temp
+6- Copiar os arquivos da aplicação no diretório padrão do apache
+7- Subir arquivo de script para um repositorio no GitHub
+
+
